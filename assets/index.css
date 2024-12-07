@@ -1,0 +1,657 @@
+.retail-master {
+    width: 289px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .inventario {
+    text-decoration: none;
+    position: relative;
+    font-size: 28px;
+    font-family: var(--font-calibri);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .component-13 {
+    cursor: pointer;
+    border: 1px solid var(--color-black);
+    padding: var(--padding-3xs);
+    background-color: var(--color-steelblue-100);
+    width: 279px;
+    height: 48px;
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .inventario-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 21px 0 0;
+  }
+  .retail-master-parent,
+  .ventas-desktop-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .retail-master-parent {
+    width: 940px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .ventas-desktop-inner {
+    width: 1268px;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .inventario1 {
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-calibri);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .component-7 {
+    cursor: pointer;
+    border: 1px solid var(--color-darkslategray);
+    padding: var(--padding-3xs);
+    background-color: var(--color-darkslategray);
+    height: 87px;
+    width: 279px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .inventario2 {
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-calibri);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .component-8 {
+    cursor: pointer;
+    border: 1px solid var(--color-steelblue-100);
+    padding: var(--padding-3xs);
+    background-color: var(--color-steelblue-100);
+    height: 87px;
+    width: 279px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .inventario3 {
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-calibri);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .component-4 {
+    cursor: pointer;
+    border: 1px solid var(--color-steelblue-100);
+    padding: var(--padding-3xs);
+    background-color: var(--color-steelblue-100);
+    height: 87px;
+    width: 279px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .inventario4 {
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-calibri);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .component-5 {
+    cursor: pointer;
+    border: 1px solid var(--color-steelblue-100);
+    padding: var(--padding-3xs);
+    background-color: var(--color-steelblue-100);
+    height: 87px;
+    width: 279px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .inventario5 {
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-calibri);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .component-7-parent,
+  .component-9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .component-9 {
+    cursor: pointer;
+    border: 1px solid var(--color-steelblue-100);
+    padding: var(--padding-3xs);
+    background-color: var(--color-steelblue-100);
+    height: 87px;
+    width: 279px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .component-7-parent {
+    margin: 0;
+    align-items: flex-start;
+    padding: 0 var(--padding-145xl);
+    gap: 49.3px;
+  }
+  .input-background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    z-index: 0;
+  }
+  .codigo-de-producto {
+    height: 44px;
+    width: 354px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .codigo-de-producto-wrapper,
+  .component-91 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .codigo-de-producto-wrapper {
+    height: 61.2px;
+    width: 374.3px;
+    background-color: var(--color-white);
+    padding: var(--padding-4xs-6) 10.6px var(--padding-4xs-6) 10.7px;
+    z-index: 1;
+  }
+  .component-91 {
+    height: 86px;
+    width: 887px;
+    padding: 12.4px 40.1px;
+    position: relative;
+  }
+  .inventario6 {
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-calibri);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .component-41 {
+    cursor: pointer;
+    border: 1px solid var(--color-steelblue-100);
+    padding: var(--padding-3xs) var(--padding-mini);
+    background-color: var(--color-steelblue-100);
+    height: 87px;
+    width: 317px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .inventario7 {
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-calibri);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .component-42,
+  .inventario-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .component-42 {
+    cursor: pointer;
+    border: 1px solid var(--color-steelblue-100);
+    padding: var(--padding-3xs);
+    background-color: var(--color-steelblue-100);
+    height: 87px;
+    width: 317px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-5xs);
+    align-items: center;
+  }
+  .inventario-input {
+    align-items: flex-start;
+    padding: 10.5px var(--padding-145xl);
+    gap: 35.5px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-17xl);
+    color: var(--color-black);
+    font-family: var(--font-calibri);
+  }
+  .articulo,
+  .eliminar {
+    margin: 0;
+  }
+  .inventario-txt {
+    width: 100%;
+  }
+  .component-43,
+  .inventario8 {
+    display: flex;
+    align-items: center;
+  }
+  .inventario8 {
+    width: 137px;
+    position: relative;
+  }
+  .component-43 {
+    width: 300px;
+    border-radius: var(--br-5xs);
+    background-color: #dc3545;
+    border: 2px solid var(--color-black);
+    box-sizing: border-box;
+    height: 87px;
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-3xs);
+  }
+  .inventario9 {
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-calibri);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .component-71 {
+    cursor: pointer;
+    border: 2px solid var(--color-black);
+    padding: var(--padding-3xs);
+    background-color: #198754;
+    height: 87px;
+    width: 300px;
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .inventario10 {
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-calibri);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .component-51 {
+    cursor: pointer;
+    border: 2px solid var(--color-black);
+    padding: var(--padding-3xs);
+    background-color: rgba(58, 124, 165, 0.6);
+    height: 87px;
+    width: 300px;
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .inventario11 {
+    position: relative;
+  }
+  .component-6 {
+    width: 300px;
+    border-radius: var(--br-5xs);
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid var(--color-black);
+    box-sizing: border-box;
+    height: 87px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    font-size: var(--font-size-17xl);
+    color: var(--color-black);
+  }
+  .component-4-parent,
+  .ventas-desktop-child {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .component-4-parent {
+    flex: 1;
+    justify-content: space-between;
+    padding: 0 var(--padding-145xl);
+    gap: var(--gap-xl);
+  }
+  .ventas-desktop-child {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 31px;
+    text-align: center;
+    font-size: 32px;
+    color: var(--color-white);
+    font-family: var(--font-calibri);
+  }
+  .codigo-de-producto1 {
+    position: relative;
+  }
+  .codigo-de-producto-container {
+    border-right: 1px solid var(--color-black);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-5xs);
+    z-index: 1;
+  }
+  .descripcion-de-producto {
+    position: relative;
+  }
+  .sale-info-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .icon,
+  .sa049144-icon,
+  .sale-details-icon {
+    position: absolute;
+    top: 96px;
+    left: 72px;
+    width: 144.3px;
+    height: 23.4px;
+    z-index: 1;
+  }
+  .icon,
+  .sale-details-icon {
+    top: 88px;
+    left: 1467px;
+    width: 60.8px;
+  }
+  .icon {
+    left: 1347px;
+    width: 13.2px;
+    height: 22.9px;
+  }
+  .mxn-icon,
+  .playera-de-natanael-cano {
+    position: absolute;
+    top: 94px;
+    left: 1074px;
+    width: 165.9px;
+    height: 27.6px;
+    z-index: 1;
+  }
+  .playera-de-natanael-cano {
+    top: 95px;
+    left: 477px;
+    width: 380.2px;
+    height: 20.8px;
+  }
+  .sale-info {
+    height: 468px;
+    width: 1594px;
+    position: absolute;
+    margin: 0 !important;
+    right: -614px;
+    bottom: -401px;
+  }
+  .descripcion-de-producto-parent {
+    flex: 1;
+    border-right: 1px solid var(--color-black);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: var(--padding-3xs) 141px;
+    position: relative;
+    gap: 10px;
+    min-width: 343px;
+    z-index: 1;
+  }
+  .descripcion-de-producto-parent,
+  .frame-parent,
+  .product-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .product-info {
+    width: 981px;
+    flex-direction: column;
+    padding: var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+  }
+  .precio-venta {
+    position: relative;
+  }
+  .precio-venta-wrapper {
+    border-right: 1px solid var(--color-black);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 14px;
+    z-index: 1;
+  }
+  .cantidad {
+    position: relative;
+    display: inline-block;
+    min-width: 125px;
+  }
+  .cantidad-wrapper,
+  .price-quantity-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .cantidad-wrapper {
+    border-right: 1px solid var(--color-black);
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-5xs) var(--padding-3xs)
+      var(--padding-3xs);
+    z-index: 1;
+  }
+  .price-quantity-inner {
+    flex-direction: column;
+    padding: 0 var(--padding-3xs) 0 0;
+  }
+  .importe {
+    position: relative;
+    display: inline-block;
+    min-width: 108px;
+    z-index: 1;
+  }
+  .importe-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+  }
+  .price-quantity,
+  .product-info-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .price-quantity {
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .product-info-parent {
+    width: 1570px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .product-details,
+  .ventas-desktop {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .product-details {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 46px 0 var(--padding-xl);
+    max-width: 100%;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+  }
+  .ventas-desktop {
+    width: 100%;
+    position: relative;
+    background-color: #e8ecd6;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-4xl) 0 513px;
+    gap: 22px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    color: var(--color-black);
+    font-family: var(--font-cinzel);
+  }
+  @media screen and (max-width: 1825px) {
+    .component-7-parent,
+    .inventario-input {
+      flex-wrap: wrap;
+    }
+    .component-4-parent {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product-info-parent {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1350px) {
+    .component-4-parent,
+    .component-7-parent,
+    .inventario-input {
+      padding-left: var(--padding-63xl);
+      padding-right: var(--padding-63xl);
+      box-sizing: border-box;
+    }
+    .frame-parent {
+      gap: 30px;
+    }
+    .product-details {
+      padding-right: var(--padding-4xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 925px) {
+    .retail-master {
+      font-size: 29px;
+    }
+    .retail-master-parent {
+      flex-wrap: wrap;
+    }
+    .component-7-parent {
+      gap: 25px;
+      padding-left: var(--padding-22xl);
+      padding-right: var(--padding-22xl);
+      box-sizing: border-box;
+    }
+    .inventario-input {
+      gap: 18px;
+    }
+    .component-4-parent,
+    .inventario-input {
+      padding-left: var(--padding-22xl);
+      padding-right: var(--padding-22xl);
+      box-sizing: border-box;
+    }
+    .descripcion-de-producto-parent {
+      padding-left: var(--padding-51xl);
+      padding-right: var(--padding-51xl);
+      box-sizing: border-box;
+    }
+    .frame-parent,
+    .price-quantity {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .retail-master {
+      font-size: 22px;
+    }
+    .codigo-de-producto1,
+    .descripcion-de-producto {
+      font-size: var(--font-size-lgi);
+    }
+    .descripcion-de-producto-parent {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .cantidad,
+    .importe,
+    .precio-venta {
+      font-size: var(--font-size-lgi);
+    }
+  }
+  

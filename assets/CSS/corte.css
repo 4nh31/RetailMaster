@@ -1,0 +1,74 @@
+
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}   
+
+
+.table-container {
+    background-color: #eef4fc;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #6c7ae0;
+    color: #fff;
+    border-bottom: 2px solid #5a68c5;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f5ff;
+}
+
+.summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px; /* Distancia entre Ventas y Ganancias */
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    position: relative;
+    width: 100%;
+    height: 27px;
+}
+
+.summary .ventas,
+.summary .ganancias {
+    width: 240px; /* Ancho del texto */
+    text-align: center;
+}
+
+.print-button {
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.print-button:hover {
+    background-color: #0056b3;
+}

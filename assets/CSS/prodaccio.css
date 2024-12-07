@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header img {
+    height: 40px;
+}
+
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.header .profile img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de los botones */
+.buttons {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttons .new-button {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.buttons .actions-button {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.buttons button:nth-child(2), 
+.buttons button:nth-child(3) {
+    background-color: #0067B8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos de la tabla */
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd) {
+    background-color: #e9ecef;
+}
+
+.actions i {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.actions .edit {
+    color: #ffc107;
+}
+
+.actions .delete {
+    color: #dc3545;
+}
+
+.form-container {
+    background-color: #d3d3d3;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.form-container .buttons {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 32px;
+    justify-content: center;
+}
+
+.form-container .buttons button {
+    background-color: #424242;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Estilo para los formularios */
+.form-container form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-container form label {
+    flex: 1 1 45%;
+    font-size: 16px;
+}
+
+.form-container form input, .form-container form select {
+    width: 550px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.form-container form .submit-button {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container form .submit-button button {
+    background-color: #0067B8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    color: #999;
+    font-style: italic;
+    text-align: right;
+}
+
+input[type="text"]:focus {
+    color: black;
+    font-style: normal;
+}

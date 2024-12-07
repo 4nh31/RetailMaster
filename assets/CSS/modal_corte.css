@@ -1,0 +1,80 @@
+    /* Estilos para los textos específicos */
+    .texto {
+        font-size: 16px;
+        margin: 10px 0;
+        font-weight: 600;
+    }
+
+    .resaltado {
+        font-weight: bold;
+        color: #555;
+    }
+
+    /* Estilos para la tabla */
+    .simple-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        border: 1px solid #000;
+        /* Bordes negros para la tabla */
+        border-radius: 8px;
+        /* Bordes redondeados */
+        overflow: hidden;
+        /* Para que los bordes redondeados afecten a toda la tabla */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Sombra sutil para dar dimensión */
+    }
+
+    .simple-table th,
+    .simple-table td {
+        border: 1px solid #000;
+        /* Bordes negros entre celdas */
+        padding: 10px;
+        text-align: left;
+    }
+
+    .simple-table th {
+        background-color: #eaeaea;
+        /* Fondo gris claro para encabezados */
+        color: #000;
+        /* Texto negro */
+        font-weight: bold;
+        text-transform: uppercase;
+        /* Opcional: convertir texto a mayúsculas */
+    }
+
+    .simple-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+        /* Fondo sutil para filas pares */
+    }
+
+    .simple-table tr:hover {
+        background-color: #f0f0f0;
+        /* Resaltar fila al pasar el cursor */
+    }
+
+
+    /* Estilos para el botón */
+    .custom-btn {
+        display: block;
+        margin: 35px auto;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-align: center;
+        width: 150px;
+    }
+
+    .custom-btn:hover {
+        background-color: #0056b3;
+    }
+
+    .custom-btn:active {
+        background-color: #004085;
+        transform: scale(0.98);
+    }
