@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?= base_url('assets/CSS/inventariox.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/CSS/modal_eliminar.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/CSS/agregar_prod.css'); ?>" rel="stylesheet">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
 <body>
     <h1>Inventario</h1>
     <div class="agregar">
-        <button>Agregar</button>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">Agregar</button>
     </div>
    
     <?php if (!empty($productos)): ?>
@@ -46,6 +50,10 @@
     <?php else: ?>
             <p>No hay productos disponibles en el inventario.</p>
     <?php endif; ?>
+    
+
+    <?php echo $componente;
+    echo $componente2?>
 
 </body>
 </html>

@@ -27,10 +27,11 @@ class inventarioController extends CI_Controller {
 
         // Verificar y asignar productos
         $data['productos'] = $productos ? $productos : [];
+        $data['componente']=$this->load->view('components/modal', $data,true);
+
 
         // Cargar vistas reutilizables
         $data['navbar'] = $this->load->view('components/Navbar', $data, true);
-        $data['content'] = $this->load->view('retail/inventario', $data, true);
 
         // Cargar la plantilla principal
         $this->load->view('layouts/template', $data);
@@ -42,12 +43,21 @@ class inventarioController extends CI_Controller {
     
         // Título de la página
         $data['title'] = 'Inventario (Administrador)';
+
+        $data['modal_title'] = 'Eliminar';
+        $data['modal_content'] = $this->load->view('retail/modal_eliminar', $data, true); 
+        $data['modal_title2'] = 'Agregar_Producto';
+        $data['modal_content2'] = $this->load->view('retail/modal_agregarproducto', $data, true); 
     
         // Obtener productos
         $productos = $this->ProductoModel->obtenerProductos();
     
         // Verificar y asignar productos
         $data['productos'] = $productos ? $productos : [];
+        $data['componente']=$this->load->view('components/modal', $data,true);
+        $data['componente2']=$this->load->view('components/modal', $data,true);
+
+
     
         // Cargar vistas reutilizables
         $data['navbar'] = $this->load->view('components/Navbar', $data, true);

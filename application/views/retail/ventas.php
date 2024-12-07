@@ -5,7 +5,7 @@
     <link href="<?= base_url('assets/CSS/ventas.css'); ?>" rel="stylesheet">
     <link href="<?= base_url('assets/CSS/modal_b.css'); ?>" rel="stylesheet">
     <link href="<?= base_url('assets/CSS/modal_corte.css'); ?>" rel="stylesheet">
-
+    <link href="<?= base_url('assets/CSS/modal_e.css'); ?>" rel="stylesheet">
 </head>
 
 <body>
@@ -18,11 +18,11 @@
             <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Generar Corte</button>
         </div>
         <div class="custom-payment-buttons">
-            <button class="custom-cash">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3" class="custom-cash">
                 EFECTIVO
                 <i class="fas fa-money-bill-wave"></i>
             </button>
-            <button class="custom-card">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4" class="custom-card">
                 TARJETA
                 <i class="fas fa-credit-card"></i>
             </button>
@@ -86,7 +86,9 @@
     <?php //$this->load->view('components/modal', $this);
    
     echo $componente;
-    echo $componente2
+    echo $componente2;
+    echo $componente3;
+    echo $componente4;
     ?>
 
 </body>

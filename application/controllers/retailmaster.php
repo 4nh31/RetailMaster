@@ -64,14 +64,25 @@ class Retailmaster extends CI_Controller {
         $data =  array();
         // Título de la página
         $data['title'] = 'Ventas';
-       
+       //cargar 2ndo modelo
         $data['modal_title'] = 'Generar Corte';
         $data['modal_content'] = $this->load->view('retail/modal_c', $data, true); 
         //CARGAR MODELO BUSCAR
         $data['modal_title2'] = 'Buscar';
         $data['modal_content2'] = $this->load->view('retail/modal_b', $data, true); 
+        //cargar 3er modelo
+        $data['modal_title3'] = 'Pago en efectivo';
+        $data['modal_content3'] = $this->load->view('retail/modal_e', $data, true); 
+        //cargar modal 4
+        $data['modal_title4'] = 'Pago en efectivo';
+        $data['modal_content4'] = $this->load->view('retail/modal_t', $data, true); 
+        //cargar componentes
         $data['componente']=$this->load->view('components/modal', $data,true);
         $data['componente2']=$this->load->view('components/modal', $data,true);
+        $data['componente3']=$this->load->view('components/modal', $data,true);
+        $data['componente4']=$this->load->view('components/modal', $data,true);
+
+
         // Cargar la vista de contenido y pasarla como una cadena
         $data['content'] = $this->load->view('retail/ventas', $data, TRUE);
         $data['navbar'] = $this->load->view('components/Navbar',$data,true); 

@@ -1,0 +1,52 @@
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+.logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    width: 150px;
+    align-items: center;
+    display: flex;
+    height: 150px;
+
+}
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    text-align: center;
+    justify-content: center;
+}
+.form-group input::placeholder {
+    color: #8c8c8c;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+}
+.buttons button.cancel {
+    background-color: #007bff;
+}
