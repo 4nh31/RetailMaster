@@ -230,35 +230,6 @@ class Retailmaster extends CI_Controller {
         redirect('retailmaster/productosEli');
     }
 
-    public function inventario(){
-        $this->verificarSesion();
-
-        // Título de la página
-        $data['title'] = 'Inventario';
-
-
-        $productos = $this->ProductoModel->obtenerProductos();
-
-        // Verificar si se obtuvieron productos
-        if ($productos) {
-            // Pasamos los productos a la vista 'inventario'
-            $data['productos'] = $productos;
-            $this->load->view('retail/inventario', $data, true); // Cargamos la vista con los productos
-        } else {
-            // En caso de que no haya productos, mostramos un mensaje
-            $data['productos'] = [];
-            $this->load->view('retail/inventario', $data);
-        }
-        
-        // Cargar la vista de contenido y pasarla como una cadena
-        $data['content'] = $this->load->view('retail/inventario', $data, TRUE);
-        $data['navbar'] = $this->load->view('components/Navbar',$data,true); 
-        // Cargar la plantilla y pasar los datos
-        $variable=$this->load->view('layouts/template', $data, TRUE);
-        echo $variable;
-    }
-
-
     public function productosAcciones() {
         // Obtener productos desde la base de datos
         $data['productos'] = $this->Producto_model->obtenerProductos();  // Obtener los productos

@@ -67,3 +67,41 @@ tr:nth-child(odd) {
   background-color: #e6e8d8;
 }
 
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.actions .fa-trash {
+  font-size: 18px; /* Aumentar el tamaño de los íconos */
+}
+
+.actions .fa-trash {
+  color: #ff5555;
+}
+
+.actions .fa-edit {
+  color: #f8ef6e;
+}
+
+.agregar {
+  display: flex;
+  justify-content: end;
+}
+
+.agregar button{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}

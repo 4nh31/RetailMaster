@@ -52,6 +52,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['default_controller'] = 'retailmaster';
 
+/*RUTAS DE INVENTARIO*/
+$route['inventario'] = 'inventarioController/inventario';
+
+/* Rutas de inventario para administrador */
+$route['inventario_admin'] = 'inventarioController/inventarioAdmin';
+$route['producto/eliminar/(:num)'] = 'inventarioController/eliminar/$1';
+
 /*rutas de clientes*/
 $route['ventas'] = 'retailmaster/ventas';
 $route['retailmaster/productosNuevo'] = 'retailmaster/productosNue';

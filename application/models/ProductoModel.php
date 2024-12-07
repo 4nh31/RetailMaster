@@ -14,4 +14,10 @@ class ProductoModel extends CI_Model {
         $query = $this->db->get('productos');
         return $query->result(); // Retorna el resultado como un arreglo de objetos
     }
+
+    public function eliminarProducto($id_producto) {
+        // Usamos el método delete de CodeIgniter para eliminar el producto por su id
+        $this->db->where('id_producto', $id_producto);
+        return $this->db->delete('productos');  // 'productos' es el nombre de la tabla
+    }
 }

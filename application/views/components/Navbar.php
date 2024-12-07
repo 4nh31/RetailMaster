@@ -5,7 +5,7 @@
     <a href="<?php echo site_url('retailmaster/dashboard_ventas'); ?>">
      Ventas
     </a>
-    <a href="<?php echo site_url('retailmaster/inventario'); ?>">
+    <a href="<?php echo site_url('inventario'); ?>">
       Inventario
     </a>
     <a href="#">
